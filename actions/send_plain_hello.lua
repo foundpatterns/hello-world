@@ -1,5 +1,5 @@
 event: ["request_received"]
-priority: 1
+weight: 1
 
 response = {
   headers = {
