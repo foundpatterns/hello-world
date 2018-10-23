@@ -1,4 +1,4 @@
-event: ["request_received"]
+event: ["incoming_request_received"]
 weight: 1
 
 response = {

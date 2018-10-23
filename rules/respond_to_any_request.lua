@@ -1,4 +1,6 @@
 weight: 10
+parameters: ["request", "events"]
+
 if true then
-	events["request_received"]:trigger(request)
+	arguments["events"]["incoming_request_received"]:trigger(arguments["request"])
 end
