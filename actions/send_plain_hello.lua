@@ -1,5 +1,6 @@
 event: ["request_received"]
 priority: 1
+parameters: ["request"]
 
 response = {
   headers = {
