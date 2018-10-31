@@ -3,5 +3,5 @@ input_parameter: "request"
 events_table: ["request_received"]
 
 if true then
-	events[events_table[1]]:trigger(request)
+	events[events_table[1]]:trigger(events_parameters)
 end
