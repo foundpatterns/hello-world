@@ -1,7 +1,21 @@
 imports = {
   base-theme = "themes/base-theme",
+  multi-component = "themes/multi-component",
+  component-holder = "themes/component-holder",
+  component-sitter = "themes/component-sitter",
 }
 
 base-theme = {
   url = "https://github.com/foundpatterns/base-theme",
+}
+
+
+multi-component = {
+  url = "https://github.com/LuisReyes98/multi-component-example"
+}
+component-holder = {
+  url = "https://github.com/LuisReyes98/component-holder"
+}
+component-sitter = {
+  url = "https://github.com/LuisReyes98/component-sitter"
 }
